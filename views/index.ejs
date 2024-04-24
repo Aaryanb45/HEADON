@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>HOTEL MID TOWN INN</title>
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+    <section class="one">
+      <div class="page">
+        <nav class="navbar background">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo" />
+          </div>
+          <ul class="nav-list">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#rooms">ROOMS</a></li>
+            <li><a href="/gallery" target="_blank">GALLERY</a></li>
+            <li><a href="#contact-us">CONTACT</a></li>
+            <li><a href="#about-us">ABOUT</a></li>
+          </ul>
+          <div class="rightnav">
+            <a href="/login_"><button class="btn">Login</button></a>
+            
+          </div>
+        </nav>
+        <section class="background fristsection">
+          <div class="box-main">
+            <div class="firsthalf">
+              <h1 class="a">Where u want to go,</h1>
+              <h2 class="b">We are</h2>
+              <div class="therefru">
+                <img src="images/thereforyou.png" alt="there for you" />
+              </div>
+            </div>
+            <div class="secondhalf">
+              <p></p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- <section class="two">
+<div class="booking-sector">
+    <div class="inner-box">
+        <input type="text" placeholder="ARRIVAL">
+        <input type="text" placeholder="DEPARTURE">
+        <select id="rooms">
+        <option value="delux">DELUX</option>
+        <option value="superdelux">SUPERDELUX</option>
+    </select>
+        <input type="text" placeholder="STATE">
+        <div class="book-btn">
+            <a href="#">BOOK NOW</a>
+        </div>
+    </div>
+</div>
+</section> -->
+    <section class="book">
+      <div class="container flex space">
+        <div class="text">
+          <h1><span>Book</span>Your Rooms</h1>
+        </div>
+        <!-- <div class="form">
+          <form class="grid" id="bookingForm" onsubmit="return validateForm()">
+            <input type="date" placeholder="Arrival Date" />
+            <input type="date" placeholder="Departure Date" />
+            <input type="number" placeholder="Adults" />
+            <input type="number" placeholder="Children" />
+            <input type="submit" value="CHECK AVALIABILITY" />
+          </form> 
+        </div>-->
+        <div class="form">
+            <form class="grid" id="bookingForm" onsubmit="return validateForm()">
+              <input type="date" id="arrivalDate" placeholder="Arrival Date" required />
+              <input type="date" id="departureDate" placeholder="Departure Date" required />
+              <input type="number" id="adults" placeholder="Adults" required />
+              <input type="number" id="children" placeholder="Children" required />
+              <input type="submit" value="CHECK AVAILABILITY" />
+            </form>
+      </div>
+    </section>
+
+    <section class="about top" id="about-us">
+      <div class="container flex">
+        <div class="left">
+          <div class="heading">
+            <h1>WELCOME</h1>
+            <h2>HOTEL MID TOWN INN</h2>
+          </div>
+          <p>
+            Welcome to Mid Town Inn, where hospitality meets sophistication in the heart of the city. Nestled amidst the vibrant pulse of downtown, Mid Town Inn invites you to embark on a journey of luxury and comfort. Our hotel boasts a distinctive blend of modern elegance and timeless charm, offering guests an unforgettable experience from the moment they arrive. Whether you're here for business or leisure, our dedicated staff is committed to ensuring your stay is nothing short of exceptional. Discover unparalleled convenience, impeccable service, and unparalleled comfort at Mid Town Inn—a sanctuary of hospitality in the bustling metropolis.
+          </p>
+        </div>
+        <div class="img-box">
+        <div class="right">
+          <img src="images/hall.jpg" alt="hall" />
+        <!-- </div> -->
+    </div>
+      </div>
+    </section>
+    <!-- <div class="rooms">
+      <h1>OUR ROOMS</h1>
+      <h1>SUPER DELUX</h1>
+      <div class="superdeluxbox">
+        <div class="superdelux1">
+          <img src="superDelux1.JPG" alt="super delux" />
+        </div>
+        <div class="superDelux2">
+          <img src="SUPERDELUX2.JPG" alt="superdelux" />
+        </div>
+      </div>
+
+      <div class="delux1">
+        <h1>DELUX</h1>
+        <img src="delux1.JPG" alt="delux" />
+      </div>
+
+      <div class="delux2">
+        <img src="DELUX2.JPG" alt="delux" />
+      </div>
+    </div> -->
+    <div class="rooms" id="rooms">
+      <h1>OUR ROOMS</h1>
+      <div class="super-delux-box">
+        <h1>SUPER DELUXE</h1>
+        <div class="rooms-img">
+          <div class="super-delux-1">
+            <img src="images/superDelux1.JPG" alt="super">
+          </div>
+          <div class="super-delux-2">
+            <img src="images/SUPERDELUX2.JPG" alt="">
+          </div>
+        </div>
+        <div class="super-delux-text">
+            <p>Experience unparalleled luxury and comfort in our Super Deluxe rooms at our esteemed hotel. Indulge in a haven of relaxation and sophistication, where every detail is meticulously crafted to elevate your stay. Immerse yourself in the plush surroundings, adorned with elegant furnishings and modern amenities. Whether you're unwinding after a busy day of exploration or seeking a tranquil retreat for your business travels, our Super Deluxe rooms offer the perfect sanctuary for a truly memorable stay</p>
+        </div>
+        <h1 id="rooms-heading-2">DELUXE</h1>
+        <div class="rooms-img rooms-img-2">
+            <div class="super-delux-1">
+              <img src="images/delux1.JPG" alt="">
+            </div>
+            <div class="super-delux-2">
+              <img src="images/DELUX2.JPG" alt="">
+            </div>
+          </div>
+          <div class="super-delux-text">
+              <p>Step into refinement and relaxation with our Deluxe rooms at our distinguished hotel. Designed to exceed your expectations, our Deluxe rooms offer a harmonious blend of style and functionality. Sink into the luxurious comfort of premium bedding and unwind amidst tasteful decor and thoughtful amenities. Whether you're traveling for business or pleasure, our Deluxe rooms provide a serene retreat where you can rejuvenate and recharge. Immerse yourself in the ambiance of understated elegance and experience unparalleled comfort throughout your stay. </p>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="container" id="contact-us">
+        <div class="inner-container">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="inner-container-2">
+            <div class="inner-data">
+                <i class="bi bi-telephone-forward-fill"></i>
+                <div class="inside-inner-container-2-data">
+                <p>+919602941335 </p>
+                <p> +919414291335</p>
+            </div>
+            </div>
+            <div class="inner-data">
+                <i class="bi bi-envelope-at"></i>
+                <p>midtowninn@gmail.com</p>
+            </div>
+            <div class="inner-data">
+                <i class="bi bi-geo-alt-fill"></i>
+                <p>Sadar Market near agrawal panchayant</p>
+                <p>Mount Abu,Rajasthan</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="foot">
+        <div class="inner-foot">
+            <a href="">About</a>
+            <a href="">Contact Us</a>
+            <a href="">Services</a>
+        </div>
+        <div class="inner-foot-2">
+            <p>©️ Mid Town Inn Marketing Pvt. Ltd</p>
+        </div>
+    </div>
+  </body>
+</html>

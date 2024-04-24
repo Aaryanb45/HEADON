@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:aliceblue;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #121212;
+    /* background: url('./foggmount.avif') repeat; */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: #121212;
+    width: 100%;
+    height: 4rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2px;
+}
+
+.inner-container{
+    width: 100%;
+    display: flex;
+    border-radius: 2px;
+    
+}
+
+.img-box{
+    border-radius: 21px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.inner-container-box{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media (max-width:1000px){
+    .inner-container{
+        flex-direction: column;
+    }
+}
